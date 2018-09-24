@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="social_height">70dp</dimen>
+
+    <dimen name="buttonCircle">110dp</dimen>
+    <dimen name="counterCircle">25dp</dimen>
+    <dimen name="redCounterTextSize">16sp</dimen>
+
+    <dimen name="mainCategoryBottomBarTextSize">12sp</dimen>
+    <dimen name="mainCategoryBottomBarHeight">58dp</dimen>
+
+    <dimen name="dialogBackgroundRadius">15dp</dimen>
+    <dimen name="dialogInnerMargin">25dp</dimen>
+
+    <dimen name="companyTitleText">14sp</dimen>
+
+
+    <dimen name="registrationLeftMargin">10dp</dimen>
+    <dimen name="registrationRightMargin">32dp</dimen>
+    <dimen name="registrationTextLength">90dp</dimen>
+
+    <dimen name="counter_size">25dp</dimen>
+    <dimen name="friendsSmallAvatar">28dp</dimen>
+</resources>

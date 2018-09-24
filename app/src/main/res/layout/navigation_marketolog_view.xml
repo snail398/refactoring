@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView android:id="@+id/navigation_marketolog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/navViewColor"
+    app:headerLayout="@layout/navigation_marketolog_header"
+    app:itemIconTint="@color/menuIconColor"
+    app:itemTextColor="@color/navViewTextColor"
+    app:menu="@menu/menu_navigation_marketolog"
+    app:theme="@style/NavigationViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+</android.support.design.widget.NavigationView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="statusBar">#3F306B</color>
+    <color name="mainBackground">#1D0937</color>
+    <color name="toolbarColor">#7461ab</color>
+
+    <color name="menuIconColor">#978EA3</color>
+
+    <color name="whatIsItColor">#438CFF</color>
+    <color name="navViewColor">#2F1E46</color>
+    <color name="navViewTextColor">#E6E6E6</color>
+
+
+    <!-- Цвета для кнопок и плашек -->
+    <color name="violetButtonStart">#8C53DB</color>
+    <color name="violetButtonEnd">#5189DC</color>
+
+    <color name="orangeRedButtonStart">#FD9722</color>
+    <color name="orangeRedButtonEnd">#FC296E</color>
+
+    <color name="purpleButtonStart">#FB2575</color>
+    <color name="purpleRedButtonEnd">#8936D3</color>
+
+    <color name="redCounter"> #FC2B6D</color>
+    <color name="darkCounter"> #1D0937</color>
+
+    <!-- Цвета для диалогов -->
+    <color name="dialogBackgroundColor"> #EAE8F5</color>
+
+    <!-- Цвета для акий и компаний -->
+
+    <color name="companySubTitleColor"> #9B9B9B</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="borderlessButton">#5388DC</color>
+
+
+</resources>

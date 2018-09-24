@@ -1,0 +1,124 @@
+<resources>
+    <!-- Общие -->
+    <string name="app_name">Sarafun</string>
+    <string name="login_result_text">Result</string>
+    <string name="runAction_button_text">Участвовать</string>
+    <string name="help_friend_button_text">Я от друга</string>
+    <string name="settings">Настройки</string>
+
+    <!-- Login -->
+    <string name="loginHello">Добро пожаловать в инновационную\nмаркетинговую платформу\n\"Сарафан\""</string>
+    <string name="registration_button_text">Регистрация</string>
+    <string name="login_button_text">Войти</string>
+    <string name="whatIsItText">Что это?</string>
+    <string name="socialTitleText">Войти с помощью</string>
+    <string name="contDescriptionVK">Вконтакте</string>
+    <string name="contDescriptionFB">Facebook</string>
+    <string name="contDescriptionGPlus">Google Plus</string>
+    <string name="contDescriptionOdniklassniki">Одноклассники</string>
+
+    <string name="default_password">1234</string>
+    <string name="default_login">saske@yandex.ru</string>
+
+    <!-- Registration -->
+    <string name="registrationDescription">Для регистрации аккаунта\nвведите необходимую\nинформацию</string>
+    <string name="registrationButtonText">Зарегестрироваться</string>
+    <string name="registrationLoginHint">E-mail</string>
+    <string name="registrationPasswordHint1">Пароль</string>
+    <string name="registrationFirstNameHint">Имя</string>
+    <string name="registrationSecondNameHint1">Фамилия</string>
+    <string name="registrationConfirmPasswordHint">Ещё раз</string>
+
+    <!-- All Action -->
+    <string name="contDescriptionInfo">Infographics</string>
+    <string name="rewardText">Твоя награда</string>
+    <string name="moreInfoText">ПОДРОБНЕЕ</string>
+    <string name="peopleUsedText">Этой акцией воспользовались N человек</string>
+    <string name="includeFriendText">В том числе ваши друзья</string>
+    <string name="takeActionText">Участвовать</string>
+    <string name="dayUntilEnd">До конца акции осталось 2 дня</string>
+    <string name="showMore">Подробнее</string>
+    <string name="hideMore">Скрыть</string>
+
+    <!-- Main Category -->
+    <string name="mainQuestion">Что бы Вы хотели?</string>
+    <string name="bottomShowAll">Показать все акции</string>
+    <string name="bottomNearest">Показать поблизости</string>
+
+    <!-- dialog Take Action -->
+    <string name="dialogTitle">Здравствуй!</string>
+    <string name="dialogText">Спасибо, что выбрали наше заведение. Для участия в акции, вам нужно прийти и просканировать наш QR-код</string>
+    <string name="dialogScanText">Сканировать код</string>
+    <string name="dialogNotNowText">Не сейчас</string>
+
+    <!-- Navigation View  -->
+    <string name="navViewMenuCategory">Категории</string>
+    <string name="navViewMenuMyActions">Мои активные акции</string>
+    <string name="navViewMenuActions">Акции</string>
+    <string name="navViewMenuFriends">Друзья</string>
+    <string name="navViewMenuFriendsActions">Акции от друзей</string>
+    <string name="navViewMenuFav">Избранное</string>
+    <string name="navViewMyBonuses">Мои бонусы</string>
+
+    <!-- Action Join List Adapter  -->
+    <string name="actJInvited">Уже приоединились</string>
+    <string name="actJButtonHide">Скрыть </string>
+    <string name="actJButtonJoin">Присоединиться</string>
+    <string name="actJButtonCancel">Отменить</string>
+
+    <!-- Marketolog Fragments Title -->
+    <string name="FirstFragmentName">Информация</string>
+    <string name="SecondFragmentName">Акции</string>
+    <string name="ThirdFragmentName">Статистика</string>
+    <string name="FouthFragmentName">Бармен</string>
+
+
+    <!-- CompanyInfoFragment  -->
+    <string name="CIFname">Название</string>
+    <string name="CIFadress">Адрес</string>
+    <string name="CIFsaveButton">Сохранить</string>
+
+    <!-- LessonSlider  -->
+    <string name="lessonSlideFirstText">Участвуй в акциях\nлюбимых заведений</string>
+    <string name="lessonSlideSecondText">Приглашай нужное\nколичество друзей в эти\nзаведения</string>
+    <string name="lessonSlideThirdText">Получай за это вкусные\nбонусы и скидки </string>
+    <string name="lessonSlideNextButton">Далее</string>
+    <string name="lessonSlidePreviousButton">Назад</string>
+    <string name="lessonSlideContinueButton">Приступить</string>
+
+    <!-- FriendsActivity  -->
+    <string name="FArequestText">Запросы в друзья</string>
+    <string name="FAmyFriendText">Мои друзья</string>
+    <string name="FAnoRequestText"></string>
+    <string name="FANOFriendText">У вас пока нет друзей</string>
+
+    <!-- FriendPageActivity  -->
+    <string name="FPAdeleteButton">Удалить из друзей</string>
+    <string name="FPAfavorites">Любимые места</string>
+    <string name="FPAcommonFriends">Общие друзья</string>
+    <string name="FPAsendInvite">Пригласить</string>
+    <string name="FPAactiveActions">Активные акции</string>
+    <string name="FPAcompliteActions">Завершенные акции</string>
+
+    <!-- CompanyContactsActivity  -->
+    <string name="CCAtitle">Контакты</string>
+    <string name="CCAdefaultPhone">8(778)421-12-52  </string>
+    <string name="CCAdefaultSite">vecchiobaule.com</string>
+    <string name="CCAdefaultAddress">ул. Воинов-Интернационалистов184</string>
+    <string name="CCAdefaultDescription">Итальянский Ресторан - Пиццерия - Бар
+Используем все продукты 100% изготовленные в Италии.</string>
+    <string name="CCAshowAllEst">Список наших заведений</string>
+
+    <!-- menu Toolbar  -->
+    <string name="MTExit">Выйти</string>
+
+    <!-- User Settings  -->
+    <string name="changeAvatarButton">Сменить фото</string>
+    <string name="changePassButton">Поменять пароль</string>
+    <string name="saveChangesButton">Сохранить</string>
+    <string name="deleteAccountButton">Удалить аккаунт</string>
+    <string name="oldPassHint">Старый пароль</string>
+    <string name="newPassHint">Новый пароль</string>
+    <string name="confirmPassHint">Повторите новый пароль</string>
+
+</resources>

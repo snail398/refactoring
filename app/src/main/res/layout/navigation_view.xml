@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:itemTextColor="@color/navViewTextColor"
+    app:theme="@style/NavigationViewStyle"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_view"
+    android:layout_gravity="start"
+    app:menu="@menu/menu_navigation"
+    app:headerLayout="@layout/navigation_header"
+    app:itemIconTint="@color/menuIconColor"
+    android:background="@color/navViewColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:background="@color/navViewColor"
+        android:orientation="vertical">
+        <ImageButton
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:id="@+id/userSettingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="start"
+            android:layout_marginLeft="-13dp"
+            android:layout_gravity="start"
+            android:src="@drawable/ic_settings"/>
+
+    </LinearLayout>
+</android.support.design.widget.NavigationView>

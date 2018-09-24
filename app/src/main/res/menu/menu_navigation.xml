@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/category"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuCategory"
+        android:icon="@drawable/ic_group_888"
+        android:iconTint="@color/menuIconColor"/>
+    <item
+        android:id="@+id/myActions"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuMyActions"
+        android:icon="@drawable/ic_wallet_giftcard"
+        android:iconTint="@color/menuIconColor"/>
+    <item
+        android:id="@+id/allActions"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuActions"
+        android:icon="@mipmap/ic_card_giftcard_white_24px"/>
+    <item
+        android:id="@+id/myFriends"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuFriends"
+        app:actionViewClass="android.widget.TextView"
+        android:icon="@drawable/ic_account_multiple"/>
+    <item
+        android:id="@+id/actionFromFriends"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuFriendsActions"
+        app:actionViewClass="android.widget.TextView"
+        android:icon="@drawable/ic_voice"
+        />
+<!--
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="1"
+        android:title="@string/navViewMenuFav"
+        android:icon="@drawable/ic_menu_izbrannoe"/>
+ -->
+
+</menu>

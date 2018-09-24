@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground">
+
+    <TextView
+        android:id="@+id/loginHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/loginHello"
+        android:textAlignment="center" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/whatIsItText"
+        android:onClick="GoToLessonSlider"
+        android:textColor="@color/whatIsItColor" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/default_login"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/default_password"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_violet"
+        android:fontFamily="@font/roboto"
+        android:onClick="CheckClick"
+        android:text="@string/login_button_text"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="46dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_orange_red"
+        android:fontFamily="@font/roboto"
+        android:onClick="GoToRegistration"
+        android:text="@string/registration_button_text"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/socialTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/socialTitleText"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/resView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/login_result_text"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginTop="18dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/social_height"
+            android:layout_weight="1"
+            android:background="@drawable/vk"
+            android:contentDescription="@string/contDescriptionVK"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/social_height"
+            android:background="@drawable/facebook"
+            android:layout_weight="1"
+            android:contentDescription="@string/contDescriptionFB"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/social_height"
+            android:background="@drawable/google_plus"
+            android:layout_weight="1"
+            android:contentDescription="@string/contDescriptionGPlus"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/social_height"
+            android:background="@drawable/odnoklassniki"
+            android:layout_weight="1"
+            android:contentDescription="@string/contDescriptionOdniklassniki"/>
+    </LinearLayout>
+
+</LinearLayout>
